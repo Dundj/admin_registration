@@ -1,0 +1,7 @@
+CREATE TABLE [IF NOT EXISTS] register
+(
+ id UUID NOT NULL,
+ code INTEGER NOT NULL ,
+ type varchar(100) NOT NULL,
+ PRIMARY KEY (id)
+);

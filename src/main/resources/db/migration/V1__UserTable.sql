@@ -1,0 +1,6 @@
+CREATE TABLE register (
+ id UUID NOT NULL,
+ code INTEGER NOT NULL ,
+ type VARCHAR (100) NOT NULL,
+ PRIMARY KEY (id)
+);
